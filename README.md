@@ -18,12 +18,12 @@ This project automates the **job application process** on Amazon Careers (or sim
 
 ## 📂 Project Structure
 
-QA_JobApplication_Automation
-│── cypress/
-│   ├── e2e/                 # Test cases
-│   ├── page_objects/         # Page Object Model (POM) files
-│   ├── fixtures/             # Test data (e.g., resume files)
-│── .github/workflows/        # GitHub Actions CI setup
-│── README.md                 # Project documentation
-│── cypress.config.js         # Cypress configuration
-│── package.json              # Dependencies and scripts
+- **QA_JobApplication_Automation/**
+  - **cypress/**  
+    - e2e/ → Test cases  
+    - page_objects/ → Page Object Model (POM) files  
+    - fixtures/ → Test data (e.g., resume files)  
+  - **.github/workflows/** → GitHub Actions CI setup  
+  - **README.md** → Project documentation  
+  - **cypress.config.js** → Cypress configuration  
+  - **package.json** → Dependencies and scripts  
