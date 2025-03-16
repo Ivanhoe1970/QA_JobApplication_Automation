@@ -27,17 +27,3 @@ QA_JobApplication_Automation
 │── README.md                 # Project documentation
 │── cypress.config.js         # Cypress configuration
 │── package.json              # Dependencies and scripts
-
-
-
-3. Save the file.
-
----
-
-### **🔹 Next Steps**
-1. **Commit and push the update**:
-   ```bash
-   git add README.md
-   git commit -m "Fixed README formatting for project structure"
-   git push origin petProject
-
