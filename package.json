@@ -1,0 +1,17 @@
+{
+  "name": "qa_jobapplication_automation",
+  "version": "1.0.0",
+  "description": "Amazon.jobs automation using Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "cypress": "^14.2.0",
+    "mailosaur": "^8.8.1"
+  },
+  "dependencies": {
+    "mailslurp-client": "^15.21.0"
+  }
+}
