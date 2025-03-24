@@ -19,7 +19,13 @@ jobs:
           node-version: '16'
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Install Cypress Binary
+        run: npx cypress install
+
+      - name: Verify Cypress Binary
+        run: npx cypress verify
 
       - name: Run Cypress Tests
         run: npx cypress run --config-file cypress.config.js
