@@ -9,8 +9,9 @@ class WorkableSearchPage {
 
   clickQualityTechnician() {
     cy.get('[aria-labelledby="1F52CB43BB_title 1F52CB43BB_posted_on 1F52CB43BB_department 1F52CB43BB_locations"]', { timeout: 20000 })
-      .should("be.visible")
-      .click({ force: true });
+    .scrollIntoView()  
+    .should("be.visible")
+    .click({ force: true });
   }
   
 }
